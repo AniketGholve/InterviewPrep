@@ -1,14 +1,13 @@
-import { useState } from 'react'
 import './App.css'
+// import ClassCompParent from './Day2/ClassCompParent'
+// import ClassCounterParent from './Day2/Counter/ClassCounterParent'
+import RoutesCompo from './Day2/Routing/RoutesCompo'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
-          <h1>count : {count}</h1>
-          <button onClick={()=>setCount(count+1)}>Increment</button>
+        <RoutesCompo/>
       </div>
     </>
   )
